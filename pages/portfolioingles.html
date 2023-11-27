@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="icon" href="pm.ico">
+</head>
+
+<body>
+
+    <!--MENU ENCABEZADO-->
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <span class="en"></span>
+                <input type="checkbox" class="check" checked>
+                <span class="es"></span>
+                <a href="#">Pablo</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#star" onclick="seleccionar()">STAR</a></li>
+                    <li><a href="#about me" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#resume" onclick="seleccionar()">RESUME</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="../img/rsz_yo.jpg" title="Pablo Medrano">
+            </div>
+            <h1>PABLO MEDRANO</h1>
+            <h2>Developer and Web Designer</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/JuanPablo.Medrano32" target="_blank"><i
+                        class="fa-brands fa-facebook-f" title="Facebook"></i></a>
+                <a href="https://www.instagram.com/pablo._.medrano/" target="_blank"><i
+                        class="fa-brands fa-instagram" title="Instagram"></i></a>
+                <a href="https://wa.me/543755230223" target="__blank"><i class="fa-brands fa-whatsapp" title="Whatsapp"></i></a>
+                <a href="https://gmail.google.com/mail/u/0/#inbox?compose=CllgCJvlHSgTbLwVBLzcFrpqRHPMbvZBQCgpgVvKrmhkpHbLZQSmjTKmRnmmRVddFDllJDplJwL"
+                    target="__blank"><i class="fa-solid fa-envelope" title="G-mail"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p><span>Hi, I'm Pablo Medrano.</span>I consider myself a dynamic, responsible person with a strong sense of
+                personal and professional ethics, with the ability to
+                work on projects in different areas of design and communication, creative trend, solid
+                organizational Skill,
+                leadership and coordinating capacity, autonomy and own initiative</p>
+
+            <div class="filas">
+                <!--DATOS PERSONALES-->
+                <div class="col">
+                    <h3>Personal information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            06-07-1991
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            3755 230223
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            pablomedranogoo@gmail.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Ruiz de Montoya 355, Misiones, Argentina
+                        </li>
+                        <li>
+                            <strong>Post</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--INTERESES-->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>WINDOWS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORT</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--technical skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--professional skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Resume</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Art and Media</h4>
+                        <span class="casa">E.E.N62</span>
+                        <span class="fecha">2007</span>
+                        <p>"Art is any form of activity of man as a reproach or exaltation of his talent
+                            inventive and expressive capacity.
+                            The mentioned peculiarities also undoubtedly belong to the style of digital art, to
+                            even though, too
+                            frequently, has been criticized because, compared to the more traditional artistic
+                            expressions,
+                            uses tools
+                            technologies that, according to the most skeptical, facilitate the creation of artifacts...
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Computing</h4>
+                        <span class="casa">E.E.M.</span>
+                        <span class="fecha">2010</span>
+                        <p>In objectives for which companies need an excellent computer consultancy that
+                            check that your
+                            Internal processes work optimally. If your company requires it, do not hesitate to
+                            contact me
+                            to advise you on it in a personalized way</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programming</h4>
+                        <span class="casa">Introduction to Programming</span>
+                        <span class="fecha">2023</span>
+                        <p>In the field of computing, programming refers to the action of creating programs or
+                            applications through
+                            development of a source code, which is based on the set of instructions followed by the
+                            computer to run a
+                            program.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experience</h3>
+                    <div class="item der">
+                        <h4>IT technician</h4>
+                        <span class="casa"></span>
+                        <span class="fecha">2010-2019</span>
+                        <p>Control and monitoring of data and medical orders. (extensive administrative experience,
+                            Excel,
+                            Word, WordPad, etc.),
+                            Repair and cleaning of PC - computer equipment and databases</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>FrontDeveloper</h4>
+                        <span class="casa">Introducción a la Programación</span>
+                        <span class="fecha">2023</span>
+                        <p>HTML, CSS, Javascript and Python development. Website maintenance and optimization
+                            user interfaces. Implement SEO Onpage practices, improving the usability of the
+                            user. Improve the loading speed of the web. Ensure web accessibility</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="../img/rsz_proyecto2.jpg" alt="proyecto-proyectos-profecional" title="proyectos">
+                    <div class="overlay">
+                        <h3>Creative design</h3>
+                        <a href="#" target="_blank"><b>PROJECTS</b></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../img/rsz_2.jpg" alt="proyecto-proyectos-profecional" title="Fotos">
+                    <div class="overlay">
+                        <h3>Creativity</h3>
+
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../img/rsz_3.jpg" alt="proyecto-proyectos-profecional" title="Proactividad">
+                    <div class="overlay">
+                        <h3>Proactivity</h3>
+                        <p>Performance</p>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <form id="contac" action="envia.php" method="post">
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACT</h2>
+                <div class="fila">
+                    <!--formulario-->
+                    <div class="col">
+                        <input type="name" name="Full name" id="nombre" placeholder="Full name" autocomplete="on"
+                            required>
+                        <input ttype="surname" name="Phone" id="surname" placeholder="Phone" autocomplete="on" required>
+                        <input type="text" name="email" id="Email" placeholder="email" autocomplete="on" required>
+                        <input type="text" name="Issue" id="tema" placeholder="Issue" autocomplete="on" required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit" id="form-submit" class="main-button">
+                            Send Message<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!--mapa-->
+                    <div class="col">
+                        <img src="../img/element5-digital-uE2T1tCFsn8-unsplash.jpg" title="Map"
+                            alt="salto encantado-misiones-argentina-programador-pagina web">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Ruiz de Montoya 355, Salto Encantado, Misiones
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    Call me: 3755 - 230223
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email: Pablomedranogoo@gmail.com
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="https://www.facebook.com/JuanPablo.Medrano32" target="_blank"><i
+                        class="fa-brands fa-facebook-f" title="Facebook"> </i></a>
+                <a href="https://www.instagram.com/pablo._.medrano/" target="_blank"><i
+                        class="fa-brands fa-instagram" title="Instagram"></i></a>
+                <a href="https://wa.me/543755230223" target="__blank"><i class="fa-brands fa-whatsapp" title="Whatsapp"></i></a>
+                <a href="https://gmail.google.com/mail/u/0/#inbox?compose=CllgCJvlHSgTbLwVBLzcFrpqRHPMbvZBQCgpgVvKrmhkpHbLZQSmjTKmRnmmRVddFDllJDplJwL"
+                    target="__blank"><i class="fa-solid fa-envelope" title="G-mail"></i></a>
+                <div class="grupo-2">
+                    <small>&copy; 2023 <b> Pablo Medrano</b> - All rights reserved.</small>
+                </div>
+
+            </div>
+        </footer>
+
+        <script src="../js/portfolio.js"></script>
+
+
+
+
+</body>
+
+</html>
