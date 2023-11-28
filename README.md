@@ -22,10 +22,14 @@ Es una aplicacion creada con el fin de ayudar a viejos y nuevos emprendedores a 
 <li>Bootstrap</li><br>
 
 > Apis utilizadas: <br>
-SendPulse - chat bot (función fetch.)   
+SendPulse - chat bot (función fetch.)
+
+ ![SendPulse](https://github.com/pablete32/app/assets/130165288/70e1c830-94d1-42de-bbe8-3a69d6c49252)
+
 FormSubmit - enviar correos (función fetch.)
+![formulario activado con API](https://github.com/pablete32/app/assets/130165288/abd3d2c4-32b1-43b5-9547-3466c29a4a38)
 
 ## Wireframe:
 ![descarga](https://github.com/pablete32/app/assets/130165288/7748f89c-1491-4bb6-8ffc-c3771ee5cbff)
 
-**Puedes vicitarnos  [aqui](http://https://ev0lutiva-desarool0s.000webhostapp.com "aqui")**
+**Puedes visitarnos  [aqui](http://https://ev0lutiva-desarool0s.000webhostapp.com "aqui")**
