@@ -5,7 +5,7 @@
 
 ## Introduccion:
 
-Esta aplicacion se desarrolla como trabajo final en el curso de Front End del Silicon Misiones, <br> con la finalidad de aplicar todos las funciones aprendidas durante las clases para obtener un resultado optimo.
+Esta aplicacion se desarrolla como trabajo final en el curso de Front End del Silicon Misiones, <br> con la finalidad de aplicar todas las funciones aprendidas durante las clases para obtener un resultado optimo.
 
 ## Proposito:
 
